@@ -1,0 +1,181 @@
+{
+    "[git-commit]": {
+        "editor.rulers": [
+            50
+        ]
+    },
+    "[lisp]": {
+        "editor.defaultFormatter": "imjacobclark.vscode-lisp-formatter",
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#00ff00"
+            },
+            {
+                "column": 100,
+                "color": "#ffff00"
+            },
+            {
+                "column": 120,
+                "color": "#ff0000"
+            }
+        ]
+    },
+    "[markdown]": {
+        "editor.suggestOnTriggerCharacters": false,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.defaultFormatter": "imjacobclark.vscode-lisp-formatter",
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#00ff00"
+            },
+            {
+                "column": 100,
+                "color": "#ffff00"
+            },
+            {
+                "column": 120,
+                "color": "#ff0000"
+            }
+        ]
+    },
+    "[python]": {
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#00ff00"
+            },
+            {
+                "column": 100,
+                "color": "#ffff00"
+            },
+            {
+                "column": 120,
+                "color": "#ff0000"
+            }
+        ]
+    },
+    "editor.fontFamily": "Source Code Pro,Menlo, Monaco, 'Courier New', monospace",
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.hover.delay": 200,
+    "editor.multiCursorModifier": "alt",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "tabnine.experimentalAutoImports": true,
+    "tabnine.disable_file_regex": [
+        "[.]cl$"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "python.languageServer": "Pylance",
+    "sync.gist": "053d4228c81173ba8df6a5daa4d8a886",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#ff00FF"
+            }
+        ]
+    },
+    "outline.showVariables": false,
+    "outline.showProperties": false,
+    "outline.showConstants": false,
+    "gitlens.codeLens.enabled": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.analysis.completeFunctionParens": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "editor.bracketPairColorization.enabled": true,
+    "alive.autoCompileOnType": false,
+    "search.maintainFileSearchCache": true,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+    },
+    "gitlens.mode.active": "zen",
+    "application.shellEnvironmentResolutionTimeout": 30,
+    "window.newWindowProfile": "Default",
+    "cursor.cpp.disabledLanguages": [
+        "yaml",
+        "plaintext",
+        "markdown"
+    ],
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.activityBar.orientation": "vertical",
+    "workbench.colorTheme": "Default Dark Modern",
+    "notebook.output.scrolling": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.enableSmartCommit": true,
+    "workbench.colorCustomizations": {},
+    "files.exclude": {
+        "**/node_modules/**": true
+    },
+    "cursor.cpp.enablePartialAccepts": true,
+    "cursor.composer.shouldAutoScrollToBottom": false,
+    "cSpell.userWords": [
+        "chunker",
+        "datapoints",
+        "dspy",
+        "Enneagram",
+        "iterrows",
+        "journaling",
+        "kmeans",
+        "MAILJET",
+        "preferredname",
+        "punkt",
+        "trainset",
+        "upserted",
+        "upserting"
+    ],
+    "cSpell.enabled": false,
+    "explorer.confirmDelete": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.profiles.osx": {
+    "zsh": {
+        "path": "arch",
+        "args": ["-x86_64", "/bin/zsh"]
+    }
+},
+"terminal.integrated.defaultProfile.osx": "zsh",
+"typescript.updateImportsOnFileMove.enabled": "always",
+"editor.formatOnSave": true,
+"git.openRepositoryInParentFolders": "always"
+}
